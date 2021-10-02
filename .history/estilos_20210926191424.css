@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header div img{
+    width: %;
+}
+
+#cabecera{
+    background-image: "./imagenes/OPSEG70.jpg";
+
+}

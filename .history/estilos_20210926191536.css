@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header div img{
+    width: 8%;
+}
+
+#cabecera{
+    background-image: "./imagenes/OPSEG70.jpg";
+    color:blue;
+
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Myriad_Pro ;
+    src: url(./extra/MyriadProBlackSemiExtendedItalic.otf);
+}
+
+h1{
+    font-family: Myriad_pro;
+}
+header div img{
+    width: 10em;
+}
+
+header{
+    
+}
+
+#cabecera{
+    background-image: url("./imagenes/OPSEG70.jpg");
+    background-repeat: initial;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.header-text,.header-img{
+    width:50%;
+}
+
+.header-text h3{
+    font-size: 1.5em;
+    color:#1c2c24;
+}
+
+.header-text h1{
+    font-size: 4.8em;
+}

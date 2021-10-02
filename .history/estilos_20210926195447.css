@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header div img{
+    width: 8%;
+}
+
+header{
+    height: 500px;
+}
+
+#cabecera{
+    background-image: url("./imagenes/OPSEG70.jpg");
+    background-repeat: initial;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.header-text{
+    
+    width:50%;
+}
