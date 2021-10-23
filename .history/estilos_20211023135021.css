@@ -140,9 +140,7 @@ form label{
 }
 
 .cuestionario input{
-    height: 25px;
-    width: 200px;
-    
+    height: 10px;
 }
 
 .cuestionario button{

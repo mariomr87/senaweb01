@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Myriad_Pro ;
+    src: url(./extra/MyriadProBlackSemiExtendedItalic.otf);
+}
+
+h1{
+    font-family: Myriad_pro;
+}
+
+header div img{
+    width: 10em;
+}
+
+#cabecera{
+    background-image: url("./imagenes/fondo.png");
+    background-repeat: initial;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.header-text,.header-img{
+    width:50%;
+}
+
+.header-text h3{
+    font-size: 1.5em;
+    color:#1c2c24;
+}
+
+.header-text h1{
+    font-size: 4.8em;
+}
+
+#header-text-degrad{
+    background: linear-gradient(#30373b,#5c5c5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+#text-felinos{
+    margin-left: 350px; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #1c4a48;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+
+    border-right: 2px solid #fff;
+
+}
+

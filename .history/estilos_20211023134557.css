@@ -139,18 +139,9 @@ form label{
     margin-bottom: 20px;
 }
 
-.cuestionario input{
-    height: 25px;
-    width: 200px;
-    
-}
-
 .cuestionario button{
-    font-size: 20px;
-    padding: 4% 8%;
-    font-weight: 600;
-    color: gray;
-    
+    width: 150px;
+    height: auto;
 }
 
 footer{

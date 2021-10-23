@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing:border-box;
 }
 
 @font-face {
@@ -59,11 +58,11 @@ nav{
 
 nav a{
     color: #fff;
-    font-weight: bold;
     text-decoration: none;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px 0;
+
 }
 
 .linea{
@@ -73,33 +72,25 @@ nav a{
 
 .centro-pag{
     display: flex;
+    
+}
+
+.centro-pag section{
+    border-radius: 25px;
+}
+
+.centro-pag article{
+    margin-top: 20px;
 }
 
 .centropag-texto{
     display: flex;
-    padding-top: 20px;
 }
 
 section{
-    width: 60%;
-    margin-right: 30px;
-}
-
-article{
     background: #fbf5ba;
-    margin-bottom: 20px;
-    padding: 25px;
-    border-radius: 25px;
-}
-
-article h2{
-    font-size: 40px;
-}
-
-article p{
-    font-size: 20px;
-    text-align: justify;
-    padding-right: 20px;
+    width: 60%;
+    margin: 0 30px;
 }
 
 article div img {
@@ -110,47 +101,11 @@ article div img {
 
 form  div h2{
     background:#0b2826 ;
-    border-radius: 20px 20px 0 0;
-    color: #ced4d4;
-    font-size: 40px;
-    padding: 20px 0;
-    text-align: center;
 }
 
 aside{
-    font-family: Arial, Helvetica, sans-serif;
     background: #496e6d;
     width: 40%;
-    border-radius: 20px;
-}
-
-form label{
-    font-weight:bold;
-    font-size: 30px;
-    color: #dae1e1;
-    padding: 5px;
-}
-
-.cuestionario{
-    padding: 10% 20%;
-}
-
-.cuestionario label,input,button{
-    margin-bottom: 20px;
-}
-
-.cuestionario input{
-    height: 25px;
-    width: 200px;
-    
-}
-
-.cuestionario button{
-    font-size: 20px;
-    padding: 4% 8%;
-    font-weight: 600;
-    color: gray;
-    
 }
 
 footer{

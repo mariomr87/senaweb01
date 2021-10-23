@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing:border-box;
 }
 
 @font-face {
@@ -108,49 +107,22 @@ article div img {
     border-radius: 25px;
 }
 
-form  div h2{
-    background:#0b2826 ;
-    border-radius: 20px 20px 0 0;
-    color: #ced4d4;
-    font-size: 40px;
-    padding: 20px 0;
-    text-align: center;
-}
-
-aside{
-    font-family: Arial, Helvetica, sans-serif;
-    background: #496e6d;
-    width: 40%;
+form div{
     border-radius: 20px;
 }
 
+form  div h2{
+    background:#0b2826 ;
+}
+
 form label{
-    font-weight:bold;
-    font-size: 30px;
-    color: #dae1e1;
-    padding: 5px;
+
 }
 
-.cuestionario{
-    padding: 10% 20%;
-}
-
-.cuestionario label,input,button{
-    margin-bottom: 20px;
-}
-
-.cuestionario input{
-    height: 25px;
-    width: 200px;
-    
-}
-
-.cuestionario button{
-    font-size: 20px;
-    padding: 4% 8%;
-    font-weight: 600;
-    color: gray;
-    
+aside{
+    background: #496e6d;
+    width: 40%;
+    border-radius: 20px;
 }
 
 footer{
